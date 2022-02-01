@@ -32,6 +32,11 @@ public class Todo {
         this.completed = completed;
     }
 
+    public Todo(int userId, String title, boolean completed) {
+        this.userId = userId;
+        this.title = title;
+        this.completed = completed;
+    }
 
     // GETTER ve SETTER private olan variablellari baska classlardan cagirip, deger atamaya ve degerleri elde etmeye yarar:
 
